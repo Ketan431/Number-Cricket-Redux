@@ -36,7 +36,7 @@ function Gameover(props) {
     return (
       <div>
       
-        {/*<Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Toss</Modal.Title>
           </Modal.Header>
@@ -46,7 +46,7 @@ function Gameover(props) {
               Close
             </Button>
           </Modal.Footer>
-        </Modal>*/}
+        </Modal>
       </div>
     );
 }

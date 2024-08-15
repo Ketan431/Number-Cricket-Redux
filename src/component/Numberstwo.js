@@ -48,6 +48,9 @@ export class Numberstwo extends Component {
       run: num[this.randomNumber(0, 6)],
       count: this.state.count + 1,
     });
+    if (this.state.count === 6) {
+      this.props.pass(this.state.count);
+    }
   };
 
   renderNumbers() {
